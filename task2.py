@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 import requests
 
 # API Key Setup
-API_KEY = "puMNkNono5xjheJudjWtklqdm4mWd2xd"
+API_KEY = "oXT38FEFy8fgWhQmkxQqJ1UO4kZhNNK8"
 
 def get_text_embedding(list_txt_chunks):
     client = Mistral(api_key=API_KEY)
